@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: auto;
+  max-width: 120rem;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+/* Global Styles */
+body {
+  color: rgb(102, 112, 133);
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  background: url(./assets/back.svg), #e3e4fb;
+  background-repeat: no-repeat;
+}
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3rem;
+  height: 9vh;
+}
+
+.portf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(18, 20, 41, 0.19);
+  padding: 7px 16px;
+  border-radius: 70px;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.portf i {
+  font-size: 1.2rem;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+/* Main Section Styles */
+#main-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 765px;
+  border: 1px solid #b5b2b2bb;
+  margin-top: 2rem;
+}
+
+.bxsh {
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.antform {
+  background: #fff;
+  width: 85vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+
+ul {
+  margin-left: -7px;
+}
+
+li {
+  list-style: none;
+  margin: 7px;
+  color: rgb(137, 152, 185);
+}
+
+/* Social Styles */
+.social {
+  margin-top: 0;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Additional Styles */
+.form-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subRow input {
+  width: 15%;
+  flex-wrap: wrap;
+}
+
+.cardsImg {
+  margin: 1rem;
+}
+
+button {
+  min-width: 102px;
+  color: rgb(66, 91, 118);
+  border: 1px solid rgb(66, 91, 118, 0.3);
+  padding: 9px 24px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+
+button:hover {
+  color: rgb(66, 91, 118, 1);
+  box-shadow: 0 2px 6px rgba(18, 20, 41, 0.19);
+}
+
+.form-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  margin-right: 0;
+}
+
+.back,
+.next {
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next {
+  margin-right: 5px !important;
+}
+
+.scrollLeft {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+
+.scroll {
+  width: 700px;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.scroll h4 {
+  width: 20rem !important;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 984px) {
+  .antform {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0;
+    margin: 2rem 1rem;
+  }
+
+
+}
+
+@media (max-width: 870px) {
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 710px) {
+  body {
+    background: #e3e4fb;
+  }
+
+  nav{
+    margin: 0;
+  }
+  
+}
