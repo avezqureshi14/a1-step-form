@@ -29,7 +29,9 @@ Follow these instructions to set up and run the project on your local machine.
 2. Navigate to the project directory: `cd your-repo`
 3. Install dependencies: `npm install`
 
-### Running the Application
-Run the development server with the following command:
-```bash
-npm start
+## Setup Instructions
+
+1. Clone this repository.
+2. Set up by going to the `/client` directory and following the README instructions there.
+3. `npm i` . This will install all the dependencies
+4. `npm start run` This will start the application
